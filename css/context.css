@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  padding: 10px 10px;
+  min-height: 100vh;
+}
+
+.pure-button{
+  background-color: #9376e2;
+  color: white;
+}

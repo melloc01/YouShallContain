@@ -5,7 +5,8 @@
 
   "description": "",
   "icons": {
-    "48": ""
+    "48": "img/wizard.png",
+    "96": "img/wizard.png"
   },
 
   "applications": {
@@ -25,7 +26,8 @@
   "browser_action": {
     "browser_style": true,
     "default_title": "You Shall Contain!",
-    "default_popup": "popup.html"
+    "default_popup": "popup.html",
+    "default_icon": "img/wizard.png"
   },
   "background": {
     "page": "popup.html"
