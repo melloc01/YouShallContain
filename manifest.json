@@ -1,0 +1,33 @@
+{
+  "manifest_version": 2,
+  "name": "You Shall Contain!",
+  "version": "0.1",
+
+  "description": "",
+  "icons": {
+    "48": ""
+  },
+
+  "applications": {
+    "gecko": {
+      "strict_min_version": "53.0"
+    }
+  },
+
+  "permissions": [
+    "<all_urls>",
+    "contextualIdentities",
+    "storage",
+    "tabs",
+    "webRequest"
+  ],
+
+  "browser_action": {
+    "browser_style": true,
+    "default_title": "You Shall Contain!",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "page": "popup.html"
+  }
+}
