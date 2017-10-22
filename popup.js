@@ -12,7 +12,7 @@
     identities.forEach(function(id) {
       opt = document.createElement('option');
       opt.value = id.cookieStoreId;
-      opt.innerHTML = id.name;
+      opt.text = id.name;
       opt.id = "container-option";
       opt.setAttribute("name", "option");
       combo.append(opt);
