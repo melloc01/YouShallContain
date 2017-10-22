@@ -27,6 +27,10 @@
     _form.addEventListener("submit", (e) => {
       e.preventDefault();
       const formData = new FormData(_form);
+      const data = {
+        container: formData.get("selected-container"),
+        regex: formData.get("regex")
+      } 
     });
   }
 
