@@ -8,3 +8,7 @@ body {
   background-color: #9376e2;
   color: white;
 }
+
+.pure-form select{
+  height: auto;
+}
