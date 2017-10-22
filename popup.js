@@ -14,7 +14,6 @@
       opt.value = id.cookieStoreId;
       opt.text = id.name;
       opt.id = "container-option";
-      opt.setAttribute("name", "option");
       combo.append(opt);
     });
   }
@@ -27,8 +26,7 @@
     const _form = document.getElementById("container-form");
     _form.addEventListener("submit", (e) => {
       e.preventDefault();
-      const data = new FormData(this._form);
-      console.log(data);
+      const formData = new FormData(_form);
     });
   }
 
